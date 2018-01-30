@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.Controller">
+   <children>
+      <ComboBox fx:id="classesBox" layoutX="72.0" layoutY="10.0" onAction="#onSelectLesson" prefHeight="28.0" prefWidth="82.0" />
+      <Label cache="true" layoutX="51.0" layoutY="172.0" text="221" AnchorPane.topAnchor="172.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="92.0" text="219" AnchorPane.topAnchor="92.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="132.0" prefHeight="20.0" prefWidth="43.0" text="219a" AnchorPane.topAnchor="132.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="372.0" text="230" AnchorPane.topAnchor="372.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="292.0" text="224" AnchorPane.topAnchor="292.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="332.0" text="226" AnchorPane.topAnchor="332.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="212.0" text="223" AnchorPane.topAnchor="212.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="51.0" layoutY="252.0" text="223a" AnchorPane.topAnchor="252.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a219" layoutX="102.0" layoutY="90.0" prefHeight="26.0" prefWidth="152.0" />
+      <TextField fx:id="a219a" layoutX="102.0" layoutY="129.0" />
+      <TextField fx:id="a221" layoutX="102.0" layoutY="169.0" />
+      <TextField fx:id="a223" layoutX="102.0" layoutY="209.0" />
+      <TextField fx:id="a223a" layoutX="102.0" layoutY="249.0" />
+      <TextField fx:id="a224" layoutX="102.0" layoutY="289.0" />
+      <TextField fx:id="a226" layoutX="102.0" layoutY="329.0" />
+      <TextField fx:id="a230" layoutX="102.0" layoutY="369.0" />
+      <DatePicker fx:id="date" layoutX="184.0" layoutY="413.0" />
+      <Label cache="true" layoutX="130.0" layoutY="412.0" text="Дата:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="c219" layoutX="435.0" layoutY="92.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c219a" layoutX="435.0" layoutY="131.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c221" layoutX="435.0" layoutY="175.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c223" layoutX="435.0" layoutY="215.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c223a" layoutX="435.0" layoutY="258.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c224" layoutX="435.0" layoutY="298.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c226" layoutX="435.0" layoutY="332.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <ComboBox fx:id="c230" layoutX="435.0" layoutY="378.0" onAction="#onSelectTeacher" prefWidth="150.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <Label cache="true" layoutX="469.0" layoutY="62.0" text="Викладачі">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vBox" layoutX="585.0" layoutY="10.0" prefHeight="480.0" prefWidth="162.0">
+         <children>
+            <CheckBox fx:id="kondratuk" mnemonicParsing="false" onAction="#onSelect" text="Кондратюк">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="nesterenko" mnemonicParsing="false" onAction="#onSelect" text="Ненстеренко">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="shkitskiy" mnemonicParsing="false" onAction="#onSelect" text="Шкіцький">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="redzuk" mnemonicParsing="false" onAction="#onSelect" text="Редзюк">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="fesyoham" mnemonicParsing="false" onAction="#onSelect" text="м-р. Фесьоха">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="fesyohaf" mnemonicParsing="false" onAction="#onSelect" text="с-лт. Фесьоха">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="mykituk" mnemonicParsing="false" onAction="#onSelect" text="Микитюк">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="vlasenko" mnemonicParsing="false" onAction="#onSelect" text="Власенко">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="samohvalov" mnemonicParsing="false" onAction="#onSelect" text="Самохвалов">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="lubarskiy" mnemonicParsing="false" onAction="#onSelect" prefHeight="24.0" prefWidth="141.0" text="Любарський">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="sokolov" mnemonicParsing="false" onAction="#onSelect" text="Соколов">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="subach" mnemonicParsing="false" onAction="#onSelect" text="Субач">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="gorbenko" mnemonicParsing="false" onAction="#onSelect" text="Горбенко">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="stempkovska" mnemonicParsing="false" onAction="#onSelect" text="Стемпковська">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="uspenskiy" mnemonicParsing="false" onAction="#onSelect" text="Успенський">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="goncharov" mnemonicParsing="false" onAction="#onSelect" text="Гончаров">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="makarchuk" mnemonicParsing="false" onAction="#onSelect" text="Макарчук">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="tkachov" mnemonicParsing="false" onAction="#onSelect" text="Ткачов">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="teteryatnyk" mnemonicParsing="false" onAction="#onSelect" text="Тетерятник">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="stotckiy" mnemonicParsing="false" onAction="#onSelect" text="Стоцький">
+               <padding>
+                  <Insets bottom="5.0" left="15.0" right="5.0" top="1.0" />
+               </padding>
+            </CheckBox>
+         </children>
+      </VBox>
+      <TextField fx:id="g219" layoutX="274.0" layoutY="90.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g219a" layoutX="274.0" layoutY="129.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g221" layoutX="274.0" layoutY="169.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g223" layoutX="274.0" layoutY="209.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g223a" layoutX="274.0" layoutY="249.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g224" layoutX="274.0" layoutY="289.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g226" layoutX="274.0" layoutY="329.0" prefHeight="26.0" prefWidth="139.0" />
+      <TextField fx:id="g230" layoutX="274.0" layoutY="369.0" prefHeight="26.0" prefWidth="139.0" />
+      <Label cache="true" layoutX="147.0" layoutY="62.0" text="Заняття">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="296.0" layoutY="62.0" text="Группа">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label cache="true" layoutX="14.0" layoutY="10.0" text="Пара">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="441.0" layoutY="410.0" mnemonicParsing="false" onAction="#onOk" prefHeight="59.0" prefWidth="101.0" text="OK" />
+   </children>
+</AnchorPane>
