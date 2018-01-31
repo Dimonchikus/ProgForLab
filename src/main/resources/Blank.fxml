@@ -62,48 +62,48 @@
       <TextField fx:id="a224" layoutX="102.0" layoutY="289.0" />
       <TextField fx:id="a226" layoutX="102.0" layoutY="329.0" />
       <TextField fx:id="a230" layoutX="102.0" layoutY="369.0" />
-      <DatePicker fx:id="date" layoutX="184.0" layoutY="413.0" />
+      <DatePicker fx:id="date" layoutX="184.0" layoutY="413.0" onAction="#onChangeDate" />
       <Label cache="true" layoutX="130.0" layoutY="412.0" text="Дата:">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <ComboBox fx:id="c219" layoutX="435.0" layoutY="92.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c219" layoutX="435.0" layoutY="92.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c219a" layoutX="435.0" layoutY="131.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c219a" layoutX="435.0" layoutY="131.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c221" layoutX="435.0" layoutY="175.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c221" layoutX="435.0" layoutY="175.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c223" layoutX="435.0" layoutY="215.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c223" layoutX="435.0" layoutY="215.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c223a" layoutX="435.0" layoutY="258.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c223a" layoutX="435.0" layoutY="258.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c224" layoutX="435.0" layoutY="298.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c224" layoutX="435.0" layoutY="298.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c226" layoutX="435.0" layoutY="332.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c226" layoutX="435.0" layoutY="332.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </ComboBox>
-      <ComboBox fx:id="c230" layoutX="435.0" layoutY="378.0" onAction="#onSelectTeacher" prefWidth="150.0">
+      <ComboBox fx:id="c230" layoutX="435.0" layoutY="378.0" prefWidth="150.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
